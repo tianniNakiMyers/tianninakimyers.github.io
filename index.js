@@ -1,1 +1,1 @@
-window.require('bootstrap');
+require('bootstrap');
