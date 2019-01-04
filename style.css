@@ -1,0 +1,136 @@
+@font-face {
+	font-family: Test;
+	src: url(fonts/THE_JACATRA.otf);
+}
+
+@font-face {
+	font-family: Test2;
+	src: url(fonts/Anthemie.ttf);
+}
+
+body {
+	margin: 0;
+	/* height: 100%; */
+}
+
+.header-wrapper {
+	margin: 1em 4em;
+	padding: 2em 1em;
+	/* display: flex; */
+}
+
+.icon-sm {
+	width: 1em;
+	height: 1em;
+}
+
+.icon-lg {
+	width: 4em;
+	height: 4em;
+}
+
+#h1 {
+	/* font-family: Test2; */
+	/* font-size: 6em; */
+	margin: 0;
+}
+
+
+#h2 {
+	font-family: Helvetica;
+	font-weight: 200;
+}
+
+.icon-md {
+	width: 1.5em;
+	height: 1.5em;
+}
+
+.icon-md-2 {
+	width: 2em;
+	height: 2em;
+}
+
+
+#tech-bar ul li {
+	
+}
+
+#card-body {
+	display: inline-block;
+}
+
+#project-card {
+	display: flex;
+}
+
+#card-wrapper {
+	display: flex;
+
+}
+
+.project-img {
+	width: 20em;
+	height: 11em;
+}
+
+section {
+	margin: 1em 4em;
+	padding: 2em 3em;
+}
+
+footer {
+	text-align: center;
+	width: 100%;
+	height: 3em;
+}
+
+footer small {
+	margin-top: 2em;
+	display: inline-block;
+}
+
+#h3 {
+	font-family: Test2;
+
+}
+
+.page-title-underline {
+	width: auto;
+	height: 4px;
+	background-color: black;
+	border-radius: 10em;
+}
+
+#h4 {
+	font-weight: 200;
+	font-style: oblique;
+}
+
+#social-bar {
+	margin-left: 3em;
+}
+
+#social-bar a {
+	margin-left: .5em;
+}
+
+#navbar {
+	text-align: right;
+}
+
+header {
+	margin: 5em 10em;
+}
+
+section {
+
+}
+
+ul.dashed > li:before {
+	content: "- ";
+}
+
+#tag-line {
+	border-left: 4px solid black;
+}
