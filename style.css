@@ -14,9 +14,15 @@ body {
 }
 
 .header-wrapper {
-	margin: 1em 4em;
+    padding: 1.8em 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+main, 
+#project-card {
+    margin: 2em 4em;
 	padding: 2em 1em;
-	/* display: flex; */
 }
 
 .icon-sm {
@@ -30,30 +36,19 @@ body {
 }
 
 #h1 {
-	/* font-family: Test2; */
-	/* font-size: 6em; */
+	font-family: Test2;
+	font-size: 5em;
 	margin: 0;
 }
 
-
 #h2 {
 	font-family: Helvetica;
-	font-weight: 200;
+    font-weight: 200;
 }
 
 .icon-md {
 	width: 1.5em;
 	height: 1.5em;
-}
-
-.icon-md-2 {
-	width: 2em;
-	height: 2em;
-}
-
-
-#tech-bar ul li {
-	
 }
 
 #card-body {
@@ -82,17 +77,19 @@ section {
 footer {
 	text-align: center;
 	width: 100%;
-	height: 3em;
+    height: 3em;
+    position: absolute;
+    bottom: 0;
 }
 
 footer small {
-	margin-top: 2em;
-	display: inline-block;
+    margin-top: 1em;
+    display: block;
+	/* display: inline-block; */
 }
 
 #h3 {
 	font-family: Test2;
-
 }
 
 .page-title-underline {
@@ -108,23 +105,22 @@ footer small {
 }
 
 #social-bar {
-	margin-left: 3em;
+	margin-left: 1em;
 }
 
 #social-bar a {
 	margin-left: .5em;
 }
 
+#social-bar a:hover {
+	text-decoration: none;
+}
 #navbar {
 	text-align: right;
 }
 
 header {
 	margin: 5em 10em;
-}
-
-section {
-
 }
 
 ul.dashed > li:before {
@@ -134,3 +130,4 @@ ul.dashed > li:before {
 #tag-line {
 	border-left: 4px solid black;
 }
+
