@@ -1,0 +1,17 @@
+body {
+    background-color: #D4D4D4;
+    display: flex;
+}
+
+nav {
+
+}
+
+header span {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+    color: #415FFF;
+
+}
